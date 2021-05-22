@@ -7,6 +7,7 @@ public class User {
 	private String email;
 	private String country;
 	private String age;
+	private String address;
 	
 	public int getId() {
 		return id;
@@ -40,6 +41,12 @@ public class User {
 	}
 	public String getAge() {
 		return age;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public String getAddress() {
+		return address;
 	}
 	public void setAge(String age) {
 		this.age = age;
