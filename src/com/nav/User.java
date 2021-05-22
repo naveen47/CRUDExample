@@ -7,6 +7,7 @@ public class User {
 	private String email;
 	private String country;
 	private String age;
+	private float salary;
 	
 	public int getId() {
 		return id;
@@ -43,5 +44,11 @@ public class User {
 	}
 	public void setAge(String age) {
 		this.age = age;
+	}
+	public float getsalary() {
+		return salary;
+	}
+	public void setSalary(float id) {
+		this.salary = salary;
 	}
 }
