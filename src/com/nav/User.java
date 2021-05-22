@@ -8,7 +8,6 @@ public class User {
 	private String country;
 	private String age;
 	private String address;
- 	private String address;
  	private Date date;
 
 	public int getId() {
