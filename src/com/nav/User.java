@@ -8,7 +8,6 @@ public class User {
 	private String country;
 	private String age;
 	private String address;
-//	private float salary;
 // 	private String address;
 	private float salary;
 
@@ -54,10 +53,4 @@ public class User {
 	public void setAge(String age) {
 		this.age = age;
 	}
-//	public float getsalary() {
-//		return salary;
-//	}
-//	public void setSalary(float id) {
-//		this.salary = salary;
-//	}
 }
