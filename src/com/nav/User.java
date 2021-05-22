@@ -9,7 +9,7 @@ public class User {
 	private String age;
 	private String address;
  	private String address;
- 	private Date date;
+
 
 	public int getId() {
 		return id;
@@ -54,10 +54,4 @@ public class User {
 		this.age = age;
 	}
 
-	public Date getDate() {
-		return date;
-	}
-	public void setDate(Date date) {
-		this.date = date;
-	}
 }
