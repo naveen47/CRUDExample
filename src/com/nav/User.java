@@ -8,8 +8,6 @@ public class User {
 	private String country;
 	private String age;
 	private String address;
- 	private String address;
-
 
 	public int getId() {
 		return id;
