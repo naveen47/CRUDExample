@@ -9,7 +9,7 @@ public class User {
 	private String age;
 	private String address;
 //	private float salary;
-// 	private String address;
+ 	private String address;
 	private float salary;
 
 	public int getId() {
@@ -45,12 +45,12 @@ public class User {
 	public String getAge() {
 		return age;
 	}
-// 	public void setAddress(String address) {
-// 		this.address = address;
-// 	}
-// 	public String getAddress() {
-// 		return address;
-// 	}
+ 	public void setAddress(String address) {
+ 		this.address = address;
+ 	}
+ 	public String getAddress() {
+ 		return address;
+ 	}
 	public void setAge(String age) {
 		this.age = age;
 	}
