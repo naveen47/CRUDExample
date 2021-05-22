@@ -6,6 +6,7 @@ public class User {
 	private String password;
 	private String email;
 	private String country;
+	private String age;
 	
 	public int getId() {
 		return id;
@@ -37,7 +38,10 @@ public class User {
 	public void setCountry(String country) {
 		this.country = country;
 	}
-	
-	
-	
+	public String getAge() {
+		return age;
+	}
+	public void setAge(String age) {
+		this.age = age;
+	}
 }
